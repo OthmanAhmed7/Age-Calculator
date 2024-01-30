@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/app.js" defer></script>
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form action="#">
+          <div class="day">
+            <label for="day" class="day">day</label>
+
+            <input type="datetime" placeholder="DD" class="day-in" />
+
+            <p class="e"></p>
+          </div>
+
+          <div class="month">
+            <label for="month" class="month">month</label>
+
+            <input type="datetime" placeholder="MM" class="month-in" />
+
+            <p class="e"></p>
+          </div>
+
+          <div class="year">
+            <label for="year" class="year">year</label>
+
+            <input type="datetime" placeholder="YYYY" class="year-in" />
+
+            <p class="e"></p>
+          </div>
+        </form>
+      </div>
+
+      <div class="sub-btn">
+        <button class="main-color btn">
+          <img src="/assets/images/icon-arrow.svg" alt="" />
+        </button>
+
+        <div class="center-line"></div>
+      </div>
+
+      <div class="result">
+        <span class="main-color year-re">- -</span> Years <br />
+        <span class="main-color month-re">- -</span> Months <br />
+        <span class="main-color day-re">- -</span> Days
+      </div>
+    </div>
+  </body>
+</html>

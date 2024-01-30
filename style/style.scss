@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+body {
+  background-color: hsl(0, 0%, 94%);
+  display: flex;
+  justify-content: center;
+}
+
+.main-color {
+  color: hsl(259, 100%, 65%);
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  transform: translateY(30%);
+  max-width: max-content;
+  border-radius: 1.3rem;
+  border-bottom-right-radius: 5rem;
+
+  .form {
+    form {
+      display: flex;
+      gap: 1rem;
+
+      label {
+        color: hsl(0, 1%, 44%);
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 3px;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 5rem;
+        border-radius: 8px;
+        padding: 0.6rem 1rem 0.6rem 0.6rem;
+        border: 1px solid hsl(0, 0%, 86%);
+        font-weight: 600;
+        font-size: larger;
+      }
+
+      .e {
+        position: absolute;
+        margin-top: 5rem;
+        font-size: 9px;
+        visibility: hidden;
+        color: hsl(0, 100%, 67%);
+        font-weight: 600;
+      }
+
+      .day {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        // .error1 {
+        //   visibility: visible;
+        // }
+
+        // .error2 {
+        //   visibility: visible;
+        // }
+
+        // .error3 {
+        //   visibility: visible;
+        // }
+      }
+
+      .month {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        // .error1 {
+        //   visibility: visible;
+        // }
+
+        // .error2 {
+        //   visibility: visible;
+        // }
+
+        // .error3 {
+        //   visibility: visible;
+        // }
+      }
+
+      .year {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        // .error1 {
+        //   visibility: visible;
+        // }
+
+        // .error2 {
+        //   visibility: visible;
+        // }
+
+        // .error3 {
+        //   visibility: visible;
+        // }
+      }
+    }
+  }
+
+  .sub-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    button {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 100%;
+      outline: none;
+      border: none;
+      background-color: hsl(259, 100%, 65%);
+      margin-top: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(14, 13, 13);
+        transition: 0.5s;
+      }
+
+      img {
+        width: 1.8rem;
+        height: 1.8rem;
+        margin-top: 5px;
+      }
+    }
+
+    .center-line {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .result {
+    margin-top: 3rem;
+    font-size: 55px;
+    font-weight: 900;
+    text-transform: lowercase;
+    line-height: 3.5rem;
+    font-style: italic;
+  }
+}
